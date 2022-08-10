@@ -1,37 +1,50 @@
 body {
-  background-color: black;
+  background: crimson;
 }
-
 h1 {
   text-align: center;
-  color: white;
 }
-
-p {
-  text-align: center;
-  color: white;
-}
-
 .caixa1 {
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 200px;
-  background: violet;
-  right: 0;
-  left: 382;
-  bottom: 0;
-  text-align: center;
-  color: white;
+  background: green;
+  left: 0;
+  bottom:0;
 }
-
 .caixa2 {
-  position: relative;
+  position: absolute;
   width: 200px;
   height: 200px;
-  background: purple;
-  right: 0;
-  left: 382;
-  bottom: 0;
+  background: yellow;
+  left: 205px;
+  bottom:0;
+}
+.menuPrincipal{
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: blueviolet;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: 0;
+}
+li{
+  float: left;
+
+}
+li a{
+  display: block;
+  color: cornflowerblue;
   text-align: center;
-  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background: rgb(87, 209, 17);
+  color: beige;
 }
