@@ -1,5 +1,7 @@
 body {
-  background: violet;
+  background: blueviolet;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -24,7 +26,7 @@ h1 {
    position: absolute;
    width: 100%;
    height: 45px;
-   background:rgb(161, 246, 252);
+   background:palevioletred;
    font-family: 'Courier New', Courier, monospace;
    top: 0;
    left: 0;
@@ -46,13 +48,13 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background: rgb(139, 105, 201);
-  color: azure;
+  background: purple;
+  color: whitesmoke;
 }
 #abelha {
    width: 15%;
 }
-.caixaRitual {
+.caixaAbelha {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -67,7 +69,7 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
-.caixaRitual2 {
+.caixaAbelha2 {
   position: absolute;
   top: 45px;
   width: 90%;
@@ -81,4 +83,18 @@ li a:hover {
   padding: 20px;
   display: flex;
   justify-content: end;
+}
+.rodape {
+   position: absolute;
+   width: 100%;
+   height: 35px;
+   background: black;
+   color: blanchedalmond;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
 }
